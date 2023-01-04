@@ -1,0 +1,56 @@
+.box{
+    border: 5px solid #f60808;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.box1::before{
+    content: '';
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #f32c09;
+    position: absolute;
+    top: -20%;
+    left: -42%;
+    transform: rotateZ(40deg);
+    transition: 0.5s;
+}
+
+.box1:hover::before{
+    animation: aaa 1.2s 1;
+    top: 106%;
+    left: 96%;
+}
+
+@keyframes aaa {
+
+    0%{
+        top: -20%;
+        left: -42%;
+    }50%{
+        top: 51%;
+        left: 33%;
+    }100%{
+        top: 106%;
+        left: 96%;
+    }
+    
+}
+
+
+
+
+
+

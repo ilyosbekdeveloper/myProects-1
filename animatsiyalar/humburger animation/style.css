@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    padding: 1em;
+    font-size: 100px;
+}
+.humburger-menu{
+    width: 1em;
+    height: 1em;
+    padding: 0.2em;
+    background-color: #0af;
+    cursor: pointer;
+    margin: auto;
+}
+.jek{
+    background-color: #fff;
+    width: 1em;
+    height: 0.2em;
+    margin-bottom: 0.2em;
+    transition: all 0.4s ease-out;
+
+}
+.humburger-menu:hover .one{
+    transform: rotate(45deg) translateY(0.3em) translateX(25px);
+}
+.humburger-menu:hover .three{
+    transform: rotate(-45deg) translateY(-0.3em) translateX(25px);
+}
+.humburger-menu:hover .two{
+    opacity: 0;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
