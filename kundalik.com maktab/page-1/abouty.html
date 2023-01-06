@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tanla =+prompt('Son tanla')
+        let birinchi =+prompt('Birinchi son');
+        let ikkinchi =+prompt('Ikkinchi son')
+
+        let javob1=birinchi-tanla;
+        let javob2=ikkinchi-tanla;
+
+
+        while(true) {
+
+        if(javob1>javob2 ) {
+            tanla=+alert(`Siz kiritgan  ${tanla} qiymatiga,  ${ikkinchi} yaqin`)
+            break
+        }
+        else if(javob1<javob2) { 
+            tanla=+alert(`Siz kiritgan  ${tanla} qiymatga, ${birinchi} yaqin`)
+            break
+
+        }
+        else if(javob1===javob2) {
+            tanla=alert(`Kiritilgan qiymatlar bir xil`)
+            break
+        }
+    }
+    
+    </script>
+</body>
+</html>
