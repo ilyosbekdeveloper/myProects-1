@@ -5,34 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="kundalik.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <script>
-        let tanla =+prompt('Son tanla')
-        let birinchi =+prompt('Birinchi son');
-        let ikkinchi =+prompt('Ikkinchi son')
 
-        let javob1=birinchi-tanla;
-        let javob2=ikkinchi-tanla;
+    <div class="wrapper">
+        <div class="shaddow rrr">
+            <div class="main-wrapper">
+                <div class="navbar">
+                    <div class="navbar-img">
+                        <img src="img/e4398d2fa8d9bee9576ad2ee09d1a2ae.jpg" alt="">
+                    </div>
+                    <div class="nav-section">
+                        <div class="links">
+                            <ul>
+                                <li><a href="#">Tashkilot</a></li>
+                                <li><a href="#">Imkoniyatlar</a></li>
+                                <li><a href="#">Hamkorlarga</a></li>
+                                <li><a href="#">Yordam</a></li>
+                            </ul>
+                        </div>
+                        <div class="language-nav">
+                            <select>
+                                <option value="UZ">O'zb</option>
+                                <option value="RU">Русский</option>
+                            </select>
+                        </div>
+                        <div class="nav-buttons">
+                            <button class="btn-info"><a href="abouty.html">Kirish</a></button>
+                            <button class="btn-success"><a href="#">Tashkilotni ulash</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="main-wrapper middler">
+            <div class="top-section">
+                <h1>Kirish Kundalik</h1>
+                <a href="#" class="kkk">Tizimda ro‘yxatdan o‘tmaganmisiz?</a>
+            </div>
+            <div class="middle-section">
+                <form action="">
+                    <label for="input1">Login</label>
+                    <input type="email" id="input1" class="input">
+                    <br><br>
+                    <label for="input2" class="fm">Login</label>
+                    <input type="password" id="input2" class="input">
+                    <i class="fa-solid fa-eye"></i>
+                </form>
+                <button class="btn">Tizimga Kirish</button>
+            </div>
+            <div class="bottom-section">
+                <div class="cirle">?</div>
+                <div class="ccc">Login yoki parolni unutdingizmi?<a href="#"> Loginni tiklash.</a></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-menu main-wrapper">
+                <div class="footer-menu-links">
+                    <div class="col-3">
+                        <h5>Tashkilot haqida</h5>
+                        <p><a href="#">Biz haqimizda ma'lumot</a></p>
+                        <p><a href="#">Yangiliklar</a></p>
+                        <p><a href="#">Aloq uchun ma'lumotlar</a></p>
+                    </div>
+                    <div class="col-3">
+                        <h5>Imkoniyatlar</h5>
+                        <p><a href="#">O'qituvchilarga</a></p>
+                        <p><a href="#">Ota onalarga</a></p>
+                        <p><a href="#">O'quvchilarga</a></p>
+                        <p><a href="#">Davlat organlariga</a></p>
+                    </div>
+                    <div class="col-3">
+                        <h5>Hamkorlarga</h5>
+                        <p><a href="#">Reklama</a></p>                        
+                    </div>
+                    <div class="col-3">
+                        <h5>Qo'llab quvvatlash</h5>
+                        <p><a href="#">Qo'llab quvvatlash xizmati portal</a></p>
+                    </div>
+                </div>
+                <div class="footer-menu-icons">
+                    <div class="icons">
+                        <div class="icon" style="margin-left: 0;">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-telegram"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-m"></i>
+                        </div>
+                    </div>
+                    <button class="btn-success qor">
+                        <a href="#">Tashkilotni ulash</a>
+                    </button>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="main-wrapper liw">
+                    <a href="#">Foydalanuvchi shartnomasi</a>
+                    <p class="oq">© 2023 ООО «Kundalik»</p>
+                </div>
+            </div>
+        </footer>
 
-        while(true) {
+    </div>
 
-        if(javob1>javob2 ) {
-            tanla=+alert(`Siz kiritgan  ${tanla} qiymatiga,  ${ikkinchi} yaqin`)
-            break
-        }
-        else if(javob1<javob2) { 
-            tanla=+alert(`Siz kiritgan  ${tanla} qiymatga, ${birinchi} yaqin`)
-            break
-
-        }
-        else if(javob1===javob2) {
-            tanla=alert(`Kiritilgan qiymatlar bir xil`)
-            break
-        }
-    }
-    
-    </script>
 </body>
 </html>

@@ -284,6 +284,9 @@ i{
     justify-content: space-between;
     padding-bottom: 30px;
 }
+.rrr{
+    box-shadow: 0 1px 3px #ccc;
+}
 .qor{
     background-color: transparent;
     padding: 0 25px;
